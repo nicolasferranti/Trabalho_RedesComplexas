@@ -28,4 +28,14 @@ public class classURI {
         qtdBrothers = 0;
         qtdIndividuals = 0;
     }
+    
+    public void printAll(){
+        System.out.println("---------------");
+        System.out.println("Name : "+ name);
+        System.out.println("Cats : "+ categorias.toString());
+        System.out.println("haveFather : "+ haveFather);
+        System.out.println("Num Bros : "+ qtdBrothers);
+        System.out.println("Num Individuals : "+ qtdIndividuals);
+        System.out.println("---------------");
+    }
 }
